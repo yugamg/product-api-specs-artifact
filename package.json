@@ -1,0 +1,26 @@
+{
+  "name": "product-api-specs-artifact",
+  "version": "1.0.0",
+  "description": "OpenAPI specification for the Product Service",
+  "main": "product-api-spec/openapi.json",
+  "files": [
+    "product-api-spec"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yugamg/product-api-specs-artifact.git"
+  },
+  "keywords": [
+    "openapi",
+    "swagger",
+    "api",
+    "specification",
+    "product"
+  ],
+  "author": "yugamg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yugamg/product-api-specs-artifact/issues"
+  },
+  "homepage": "https://github.com/yugamg/product-api-specs-artifact#readme"
+} 
