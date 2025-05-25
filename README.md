@@ -5,12 +5,12 @@ This package contains the OpenAPI specification for the Product Service.
 ## Installation
 
 ```bash
-npm install product-api-specs-artifact
+npm install product-api-spec
 ```
 
 ## Usage
 
-The OpenAPI specification can be accessed at `node_modules/product-api-specs-artifact/product-api-spec/openapi.json`.
+The OpenAPI specification can be accessed at `node_modules/product-api-spec/product-api-spec/openapi.json`.
 
 ## API Endpoints
 
