@@ -1,0 +1,58 @@
+{
+    "openapi": "3.1.0",
+    "info": {
+        "title": "Product Service",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/products/": {
+            "get": {
+                "summary": "Get Products",
+                "operationId": "get_products_products__get",
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "items": {
+                                        "$ref": "#/components/schemas/Product"
+                                    },
+                                    "type": "array",
+                                    "title": "Response Get Products Products  Get"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "Product": {
+                "properties": {
+                    "id": {
+                        "type": "integer",
+                        "title": "Id"
+                    },
+                    "name": {
+                        "type": "string",
+                        "title": "Name"
+                    },
+                    "price_in_cents": {
+                        "type": "integer",
+                        "title": "Price In Cents"
+                    }
+                },
+                "type": "object",
+                "required": [
+                    "id",
+                    "name",
+                    "price_in_cents"
+                ],
+                "title": "Product"
+            }
+        }
+    }
+}
