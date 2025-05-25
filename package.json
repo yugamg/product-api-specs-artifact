@@ -1,0 +1,7 @@
+{
+    "name": "@nagarro/product-api-spec",
+    "version": "1.0.0",
+    "main": "openapi.json",
+    "files": ["openapi.json"]
+  }
+  
